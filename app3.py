@@ -18,7 +18,7 @@ st.markdown("""
     .stMetric { background-color: #ffffff; padding: 15px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
     .reportview-container .main .block-container { padding-top: 2rem; }
     </style>
-    """, unsafe_allow_type=True)
+    """, unsafe_allow_html=True)
 
 # --- 2. دوال النظام الأساسية ---
 @st.cache_resource
