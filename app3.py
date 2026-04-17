@@ -174,5 +174,5 @@ elif page == "🔮 التنبؤ والأتمتة":
                 else:
                     st.success("✅ المخزون كافٍ لتغطية الطلب المتوقع. لا حاجة لطلب توريد.")
         else:
-            st.error("خطأ: ملف النموذج `walmart_model.pkl` غير موجود!")
+            st.error("خطأ: ملف النموذج `walmart_model1.pkl` غير موجود!")
 
