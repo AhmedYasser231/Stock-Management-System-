@@ -24,7 +24,7 @@ st.markdown("""
 @st.cache_resource
 def load_model():
     try:
-        with open('walmart_model.pkl', 'rb') as f:
+        with open('walmart_model1.pkl', 'rb') as f:
             return pickle.load(f)
     except:
         return None
