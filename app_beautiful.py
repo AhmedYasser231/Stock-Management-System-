@@ -115,6 +115,8 @@ def load_model():
 def load_data():
     df = pd.read_csv('Walmart_Sales.csv')
     df['Date'] = pd.to_datetime(df['Date'], dayfirst=True)
+# i added this line
+    df['Week'] = df['Date'].dt.isocalendar().week
     return df
 
 model = load_model()
